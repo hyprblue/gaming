@@ -46,6 +46,7 @@ rpms:
   - latencyflex-vulkan-layer
   - hl2linux-selinux
   - gamemode
+  - vkBasalt
 
 # These Flatpaks (from flathub) will be available for install on boot
 # If you leave this empty you can use yafti for post-boot installation
