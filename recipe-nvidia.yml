@@ -15,7 +15,7 @@ base-image: ghcr.io/hyprblue/nvidia
 fedora-version: latest
 
 # This description will be visible in the container metadata
-description: The gaming-focused version of Hyprblue.
+description: The gaming-focused version of Hyprblue (nvidia).
 
 # These scripts will be executed during the container build
 # Place scripts in scripts/ and put the corresponding filename here
