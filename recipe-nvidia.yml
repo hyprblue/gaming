@@ -26,12 +26,13 @@ scripts:
 # An example use case it to enable services
 # Place these scripts in post-install/ and put the corresponding filename here
 post-install:
-# - example.sh
+  - system76-scheduler.sh
 
 # a list of urls of .repo files that should be added to your system
 # this is the proper way to add copr repos to your image
 extrarepos:
-# - example.repo
+  - https://copr.fedorainfracloud.org/coprs/kylegospo/system76-scheduler/repo/fedora-38/kylegospo-system76-scheduler-fedora-38.repo
+  - https://copr.fedorainfracloud.org/coprs/kylegospo/hl2linux-selinux/repo/fedora-38/kylegospo-hl2linux-selinux-fedora-38.repo
 
 # These packages will be removed before the installing packages
 remove:
@@ -40,7 +41,8 @@ remove:
 # These rpms will be installed from the fedora repository
 # using rpm-ostree and will be preinstalled in the final image
 rpms:
-# - example
+  - system76-scheduler
+  - hl2linux-selinux
 
 # These Flatpaks (from flathub) will be available for install on boot
 # If you leave this empty you can use yafti for post-boot installation
