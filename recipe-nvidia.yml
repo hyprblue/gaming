@@ -35,10 +35,7 @@ extrarepos:
 
 # These packages will be removed before the installing packages
 remove:
-  - firefox
-  - firefox-langpacks
-  - xorg-x11-drv-nvidia-power
-  - xorg-x11-drv-nvidia
+# - example
 
 # These rpms will be installed from the fedora repository
 # using rpm-ostree and will be preinstalled in the final image
