@@ -43,6 +43,7 @@ remove:
 rpms:
   - system76-scheduler
   - hl2linux-selinux
+  - gamemode
 
 # These Flatpaks (from flathub) will be available for install on boot
 # If you leave this empty you can use yafti for post-boot installation
