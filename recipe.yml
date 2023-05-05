@@ -53,4 +53,5 @@ flatpaks:
   - org.freedesktop.Platform.VulkanLayer.MangoHud//22.08
   - com.valvesoftware.Steam
   - com.valvesoftware.Steam.Utility.gamescope
+  - net.lutris.Lutris
   - net.davidotek.pupgui2
