@@ -1,3 +1,3 @@
 #!/usr/bin/sh
 
-systemctl enable --now com.system76.Scheduler.service
+systemctl enable com.system76.Scheduler.service
